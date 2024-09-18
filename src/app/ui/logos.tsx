@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Logos() {
     return (
-        <div className="flex flex-row mt-4">
-            <div className="mr-8">
+        <div className="flex flex-row justify-center space-x-4 md:space-x-8">
+            <div>
                 <a href="https://github.com/boarrr" target="_blank" rel="noopener noreferrer">
                     <Image
                         src="/githublogo.png"
-                        width={50}
-                        height={50}
-                        className=""
+                        width={100}
+                        height={100}
+                        className="w-12 md:w-14 lg:w-20 xl:w-16"
                         alt="An image showing the GitHub logo"
                     />
                 </a>
@@ -19,9 +19,9 @@ export default function Logos() {
                 <a href="https://www.linkedin.com/in/ryan-pitman/" target="_blank" rel="noopener noreferrer">
                     <Image
                         src="/linkedinlogo.png"
-                        width={50}
-                        height={50}
-                        className=""
+                        width={100}
+                        height={100}
+                        className="w-12 md:w-14 lg:w-20 xl:w-16"
                         alt="An image showing the GitHub logo"
                     />
                 </a>
