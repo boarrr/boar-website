@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Logos() {
     return (
-        <div className="flex flex-row justify-center space-x-4 md:space-x-8">
+        <div className="flex flex-row justify-center xl:justify-start xl:ml-10 space-x-4 md:space-x-8">
             <div>
                 <a href="https://github.com/boarrr" target="_blank" rel="noopener noreferrer">
                     <Image

@@ -9,7 +9,7 @@ export default function Home() {
         <IntroText /> 
         <Logos />
       </div>
-
+      
       <ProfilePhoto />
     </main>
   );
