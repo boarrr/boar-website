@@ -7,7 +7,7 @@ export default function ProfilePhoto() {
                 src="/profile_photo.png"
                 width={600}
                 height={600}
-                className="rounded-full object-cover"
+                className="rounded-full object-contain"
                 alt="A photo of Ryan"
             />
         </div>
