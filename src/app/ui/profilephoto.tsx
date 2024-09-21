@@ -9,6 +9,7 @@ export default function ProfilePhoto() {
                 height={600}
                 className="rounded-full object-contain"
                 alt="A photo of Ryan"
+                priority
             />
         </div>
     );

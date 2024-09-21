@@ -5,7 +5,21 @@ import '@/app/globals.css'
 
 export const metadata: Metadata = {
   title: "Ryan Pitman | AI, Cybersecurity & Software Development Enthusiast",
-  description: "Ryan Pitman: A Computer Science student exploring the intersections of AI, Cybersecurity, and Software Development. Dive into my portfolio to see how I blend creativity and technical expertise in the evolving world of technology.",
+  description: "Ryan Pitman: A Computer Science student exploring AI, Cybersecurity, and Software Development.",
+  openGraph: {
+    title: "Ryan Pitman | AI, Cybersecurity & Software Development Enthusiast",
+    description: "Explore Ryan's portfolio blending AI, Cybersecurity, and software development.",
+    images: [
+      {
+        url: "/profile_photo.png",
+        width: 800,
+        height: 600,
+        alt: "Profile photo of Ryan Pitman",
+      },
+    ],
+    type: "website",
+    locale: "en_IE",
+  }
 };
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Logos() {
+export default function SocialLogos() {
     return (
         <div className="flex flex-row justify-center xl:justify-start xl:ml-10 space-x-4 md:space-x-8">
             <div>
@@ -10,8 +10,10 @@ export default function Logos() {
                         width={100}
                         height={100}
                         className="w-12 md:w-14 lg:w-20 xl:w-16"
-                        alt="An image showing the GitHub logo"
+                        alt="Link to Ryan's GitHub Profile"
                     />
+
+                    <span className="sr-only">GitHub Profile of Ryan Pitman</span>
                 </a>
             </div>
 
@@ -22,8 +24,10 @@ export default function Logos() {
                         width={100}
                         height={100}
                         className="w-12 md:w-14 lg:w-20 xl:w-16"
-                        alt="An image showing the GitHub logo"
+                        alt="Link to Ryan's LinkedIn Profile"
                     />
+
+                    <span className="sr-only">LinkedIn Profile of Ryan Pitman</span>
                 </a>
             </div>
         </div>
