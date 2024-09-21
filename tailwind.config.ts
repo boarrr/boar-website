@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'h-sm': { 'raw': '(max-height: 768px)' },
+      }
     },
   },
   plugins: [],
