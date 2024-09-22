@@ -1,29 +1,30 @@
-
 export default function IntroText() {
     return (
-        <div className="flex flex-col items-center mb-5 xl:items-start">
-            <div className="">
-               <p className="text-lg lg:text-3xl xl:text-2xl font-bold xl:ml-10">
+        <div className="flex flex-col items-center xl:items-start text-center xl:text-start mb-5 md:mx-10">
+
+            <section>
+                <p className="text-lg lg:text-3xl xl:text-2xl font-bold">
                     👋 Hello! My name is
                 </p>
-            </div>
 
-            <div className="text-center xl:text-start md:text-xl lg:text-2xl xl:text-xl md:mr-10 md:ml-10">
                 <p className="text-5xl md:text-6xl lg:text-7xl xl:text-6xl font-bold mb-5 lg:mb-7">
-                    Ryan Pitman
-                    <span className="text-red-400">.</span>
+                        Ryan Pitman
+                        <span className="text-red-400">.</span>
                 </p>
-                <p className="mb-2 lg:mb-5">
+            </section>
+
+            <section className="md:text-xl lg:text-2xl xl:text-xl">
+                <p className="mb-5">
                     I am a student from <a
                         href="https://maps.app.goo.gl/1nQn2zzcDtF6bRadA" 
                         className="text-red-400 font-bold" 
                         target="_blank"
                         rel="noopener noreferrer">
                         Dublin, Ireland
-                    </a> with interests in Artificial Intelligence, Cybersecurity and Software Development.
+                    </a> with interests in Artificial Intelligence, Cybersecurity, and Software Development.
                 </p>
-                <p className="mb-2 lg:mb-5">  
-                    I am currently a second year student, studying <a 
+                <p className="mb-5">  
+                    I am currently a second-year student, studying <a 
                         href="https://www.tudublin.ie/study/undergraduate/courses/computer-science-infrastructure-tu857/"
                         className="text-red-400 font-bold"
                         target="_blank"
@@ -46,8 +47,7 @@ export default function IntroText() {
                         resume
                     </a>.
                 </p>
-    
-            </div>
+            </section>
         </div>
     );
 }
