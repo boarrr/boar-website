@@ -24,7 +24,7 @@ export default function IntroText() {
                     </a> with interests in Artificial Intelligence, Cybersecurity, and Software Development.
                 </p>
                 <p className="mb-5">  
-                    I am currently a second-year student, studying <a 
+                    I am currently a third-year student, studying <a 
                         href="https://www.tudublin.ie/study/undergraduate/courses/computer-science-infrastructure-tu857/"
                         className="text-red-400 font-bold"
                         target="_blank"
